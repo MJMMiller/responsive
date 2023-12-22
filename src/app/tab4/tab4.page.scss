@@ -1,0 +1,24 @@
+ion-grid{
+    background-color: blue;
+}
+ion-grid ion-row{
+    background-color: brown;
+}
+.col1{
+    background-color: green;
+    margin: 1rem;
+}
+.col2{
+    background-color: rgb(255, 187, 0);
+    margin: 1rem;
+}
+
+@media (min-width: 768px) {
+    .col1 {
+      order: 2;
+    }
+    .col2 {
+      order: 1;
+    }
+  }
+  
